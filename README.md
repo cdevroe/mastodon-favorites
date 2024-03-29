@@ -1,6 +1,10 @@
 # Favorite Toots WordPress Plugin
 
-Add a list of your favorite toots on Mastodon to any page on your website using a block.
+Add a list of your favorite toots from Mastodon to any page on your website using a block.
+
+## Installation
+
+- Install [the version on the WordPress Plugin Directory](https://wordpress.org/plugins/favorite-toots/).
 
 ## Version History
 
