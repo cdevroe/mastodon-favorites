@@ -1,27 +1,16 @@
 === Favorite Toots ===
 Contributors:      cdevroe
-Tags:              block, mastodon, shortcode
-Tested up to:      6.4
+Tags:              block, mastodon, favorites
+Tested up to:      6.5
 Stable tag:        0.2.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Add a list of your favorite toots on Mastodon to any page on your website using a block.
+Add a list of your favorite toots from Mastodon to any page on your website using a block.
 
 == Description ==
 
-Add a list of your favorite toots on Mastodon to any page on your website using a block.
-
-== Installation ==
-
-Installation note: Installing and activating Favorite Toots whitelists the use of iframes in post content.
-
-1. Upload the plugin files to the `/wp-content/plugins/favorite-toots` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-Or, 
-
-1. Search for "Favorite Toots" in the WordPress Plugin Directory and Install and Activate it there.
+Use the Favorite Toots block to quickly add a list of your favorite toots from Mastodon to any page on your website. The toots appear as a fully styled list. You can see how it looks by [viewing my favorite toots on my website](https://cdevroe.com/favorite-toots).
 
 == Frequently Asked Questions ==
 
@@ -38,7 +27,7 @@ Your Mastodon instance URL is usually the domain name that appears in your usern
 1. Log into your Mastodon instance.
 2. Click Preferences > Development
 3. Choose "New application"
-4. Application name: Favorite Toots WordPress
+4. Application name: Favorite Toots WordPress (or, anything you'd like)
 5. Application Website: Your website URL
 6. Redirect URI: (leave as-is)
 7. Scopes: read:bookmarks read:favourites read:statuses
@@ -47,18 +36,26 @@ Your Mastodon instance URL is usually the domain name that appears in your usern
 
 = Where can I provide feedback? =
 
-I welcome feedback, code, and feature suggestions! You can submit a thread to the WordPress Support Forums or [on GitHub](https://github.com/cdevroe/favorite-toots) has an issue.
+I welcome feedback, code, and feature suggestions! You can submit a thread to the WordPress Support Forums or [on GitHub](https://github.com/cdevroe/favorite-toots) as an issue.
 
 == Screenshots ==
+1. The Favorite Toots block and its options
+2. Your favorite toots need to be seen by the world
+3. Great toots need to be seen
+4. An unheard song... you get the point, show off your toots!
 
-1. Coming soon
+== Toots in screenshots ==
+
+- Screenshot 2: [@elengale@mastodon.social](https://mastodon.social/@elengale/112174709734505255), [@tomnorthfilm@photog.social](https://photog.social/@tomnorthfilm/112151440420302765)
+- Screenshot 3: [@jontofski@mastodon.art](https://mastodon.art/@Jontofski/112124829992254349)
+- Screenshot 4: [@salginatobel@go5.dev](https://go5.dev/@salginatobel/112136436959884868), [@microseasons@botsin.space](https://botsin.space/@microseasons/112130969075940516)
 
 == Changelog ==
 
-= 0.2.4 = 
+= 0.2.4 =
 * Updates related to submission requests from the WordPress Plugin reviewers
 
-= 0.2.3 = 
+= 0.2.3 =
 * Updates related to submission requests from the WordPress Plugin reviewers
 * Readme Updates
 
@@ -66,7 +63,7 @@ I welcome feedback, code, and feature suggestions! You can submit a thread to th
 * Renamed to Favorite Toots
 
 = 0.2.1 =
-* Added nonce check to cache buster during Block settings update
+* Added nonce check to cache buster during block settings update
 
 = 0.2.0 =
 * Multiple instances of the block will now cache independently
@@ -80,7 +77,4 @@ I welcome feedback, code, and feature suggestions! You can submit a thread to th
 
 == About this Plugin ==
 
-One of the primary ways I find new accounts to follow on social media is by eavesdropping on
-other people’s favorites. Many social networks make each account’s favorites public but
-Mastodon does not (yet?). So I wanted a way to show my favorite toots publicly so that others can
-look through them. And I’m hoping others make theirs available too. - [Colin Devroe](https://cdevroe.com/)
+One of the primary ways I find new accounts to follow is by eavesdropping on other people’s favorites. Many platforms make favorites public but Mastodon doesn't (yet?). I wanted to show my favorite toots publicly so that people can look through them. I’m hoping you'll make your favorite toots public this way too.
